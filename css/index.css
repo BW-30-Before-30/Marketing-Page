@@ -127,7 +127,7 @@ table {
   border-spacing: 0;
 }
 /* Nav Style */
-.container {
+.navtop {
   background: #FFE6CD;
   display: flex;
 }
