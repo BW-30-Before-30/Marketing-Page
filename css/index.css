@@ -127,7 +127,31 @@ table {
   border-spacing: 0;
 }
 /* Nav Style */
-.container {
+.navtop {
   background: #FFE6CD;
+  padding: 20px 40px;
+  color: #8F573B;
+  font-size: 18px;
   display: flex;
+  justify-content: space-between;
 }
+.logo {
+  font: Bold 40px Garamond;
+  letter-spacing: 4.5px;
+}
+.links {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+  font: Bold 20px Helvetica;
+}
+.links a {
+  margin-right: 40px;
+  align-self: center;
+  letter-spacing: 2px;
+  color: #8F573B;
+}
+/*
+a:hover {
+ animation for the links	
+}*/
