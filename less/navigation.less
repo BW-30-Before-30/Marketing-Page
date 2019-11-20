@@ -31,6 +31,53 @@
 	text-decoration: none;
 }
 
+.navBottom {
+	background: #FFE6CD;
+	display: flex;
+	font-family: Helvetica;
+	//justify-content: space-between;
+	align-items: center;
+	margin: .5%;
+	padding: 3%; 
+
+	.linksLeft {
+		width: 33%;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		margin: 0 0 0 10%;
+		line-height: 25px;
+
+	}
+
+		a {
+			font-size: 1.1rem;
+			font-weight: bold;
+			text-decoration: none;
+			color: #8F573B;
+		}
+
+	.logoBottom {
+		width: 33%;
+		display: flex;
+		justify-content: center;
+
+		img {
+			max-width: 100%;
+		}
+		
+	}
+
+	.linksRight {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+		width: 33%;
+		margin: 0 10% 0 0;
+		line-height: 25px;
+	}
+}
+
 /*
 a:hover {
  animation for the links	

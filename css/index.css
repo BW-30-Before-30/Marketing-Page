@@ -158,6 +158,44 @@ html {
   color: #8F573B;
   text-decoration: none;
 }
+.navBottom {
+  background: #FFE6CD;
+  display: flex;
+  font-family: Helvetica;
+  align-items: center;
+  margin: 0.5%;
+  padding: 3%;
+}
+.navBottom .linksLeft {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0 0 0 10%;
+  line-height: 25px;
+}
+.navBottom a {
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #8F573B;
+}
+.navBottom .logoBottom {
+  width: 33%;
+  display: flex;
+  justify-content: center;
+}
+.navBottom .logoBottom img {
+  max-width: 100%;
+}
+.navBottom .linksRight {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 33%;
+  margin: 0 10% 0 0;
+  line-height: 25px;
+}
 /*
 a:hover {
  animation for the links	
