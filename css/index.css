@@ -158,12 +158,15 @@ html {
   color: #8F573B;
   text-decoration: none;
 }
+/*
+a:hover {
+ animation for the links	
+}*/
 .navBottom {
   background: #FFE6CD;
   display: flex;
   font-family: Helvetica;
   align-items: center;
-  margin: 0.5%;
   padding: 3%;
 }
 .navBottom .linksLeft {
@@ -172,7 +175,7 @@ html {
   flex-direction: column;
   align-items: flex-start;
   margin: 0 0 0 10%;
-  line-height: 25px;
+  line-height: 22px;
 }
 .navBottom a {
   font-size: 1.1rem;
@@ -186,7 +189,7 @@ html {
   justify-content: center;
 }
 .navBottom .logoBottom img {
-  max-width: 100%;
+  max-width: 98%;
 }
 .navBottom .linksRight {
   display: flex;
@@ -194,12 +197,12 @@ html {
   align-items: flex-end;
   width: 33%;
   margin: 0 10% 0 0;
-  line-height: 25px;
+  line-height: 22px;
 }
-/*
-a:hover {
- animation for the links	
-}*/
+.pageContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+}
 /*
 body .marketing {
     max-width: 100%;
