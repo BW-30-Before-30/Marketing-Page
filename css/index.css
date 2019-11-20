@@ -136,6 +136,7 @@ html {
 .pageContainer {
   max-width: 1050px;
   margin: 0 auto;
+  background-color: white;
 }
 /* Nav Style */
 .navtop {
@@ -198,6 +199,22 @@ a:hover {
   width: 33%;
   margin: 0 10% 0 0;
   line-height: 22px;
+}
+.teamPics {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  margin: 0 12%;
+}
+.teamPics .teamMatePic {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  padding: 3% 0;
+}
+.teamPics img {
+  width: 70%;
+  border-radius: 50%;
 }
 .bottomPic {
   display: flex;
