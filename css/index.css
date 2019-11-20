@@ -126,6 +126,12 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
 /* Nav Style */
 .navtop {
   background: #FFE6CD;
@@ -156,38 +162,42 @@ table {
 a:hover {
  animation for the links	
 }*/
+/*
 body .marketing {
-  max-width: 100%;
+    max-width: 100%;
 }
 .marketingheader {
-  display: flex;
-  max-width: 100%;
-  height: 70vh;
-  justify-content: flex-end;
-  border: 2px solid red;
-}
-.marketingheader .boxH {
-  background: #FFE5CD;
-  height: 40%;
-  width: 40%;
-  position: absolute;
-  border: 4px solid yellow;
-  z-index: 999;
-  top: 30%;
-  right: 53%;
-  color: #8F573B;
-}
-.marketingheader .boxH h1 {
-  font: Bold 40px Marker felt;
-  letter-spacing: 3px;
-  text-align: center;
-  padding: 5px;
-}
-.marketingheader .boxH p {
-  font-size: 20px;
-  text-align: center;
-  padding: 10px;
-}
-.marketingheader .headerimg {
-  width: 60%;
-}
+    display: flex;
+    max-width: 100%;
+    height: 70vh;
+    justify-content: flex-end;
+    border: 2px solid red;
+    .boxH {
+        background: #FFE5CD;
+        //text-align: center;
+        height: 40%;
+        width: 40%; 
+        position: absolute;  
+        border: 4px solid yellow;  
+        z-index: 999; 
+        top: 30%;
+        right: 53%;
+        color:#8F573B;
+        h1 {
+            font: Bold 40px Marker felt;
+            letter-spacing: 3px;
+            text-align: center;
+            padding: 5px;
+        }//h1 end
+        p {
+            font-size: 20px;
+            text-align: center;
+            padding: 10px;
+    
+        }//p end
+    }// header box ends
+    .headerimg {
+        width: 60%;
+        
+    }// end of header img
+}*/
