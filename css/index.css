@@ -129,6 +129,27 @@ table {
 * {
   box-sizing: border-box;
 }
+@font-face {
+  font-family: 'EB Garamond';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/ebgaramond/v12/SlGDmQSNjdsmc35JDF1K5E55YMjF_7DPuGi-6_RkBI96.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Permanent Marker';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Permanent Marker Regular'), local('PermanentMarker-Regular'), url(https://fonts.gstatic.com/s/permanentmarker/v9/Fh4uPib9Iyv2ucM6pGQMWimMp004La2Ceg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Rubik'), local('Rubik-Regular'), url(https://fonts.gstatic.com/s/rubik/v9/iJWKBXyIfDnIV7nBrXk.ttf) format('truetype');
+}
 html {
   font-size: 62.5%;
   background-color: black ;
@@ -239,6 +260,29 @@ body .marketing {
         
     }// end of header img
 }*/
+header {
+  display: flex;
+}
+header .topImage {
+  width: 700px;
+  display: flex;
+}
+header img {
+  width: 100%;
+}
+header .aboutUs {
+  background-color: #5B7531;
+  padding: 8%;
+  width: 550px;
+  position: absolute;
+  top: 165px;
+  left: 450px;
+}
+header .aboutUs h2 {
+  font-family: 'Permanent Marker', cursive;
+  color: #FFE8CD;
+  font-size: 4rem;
+}
 .bigDeal {
   display: flex;
   align-items: center;
@@ -247,11 +291,11 @@ body .marketing {
   padding: 6%;
 }
 .bigDeal H2 {
-  font-family: Garamond;
+  font-family: 'EB Garamond', serif;
   font-size: 2rem;
   font-weight: bold;
   color: #975F43;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
 }
 .bigDeal p {
   font-family: helvetica;
@@ -270,7 +314,6 @@ body .marketing {
   height: 55px;
   display: flex;
   justify-content: center;
-  margin: 0 6.5%;
   background-color: #5B7531;
   align-items: center;
 }
@@ -312,7 +355,7 @@ body .marketing {
   align-items: center;
 }
 .bottomPic .getOut h2 {
-  font-family: Garamond;
+  font-family: 'EB Garamond', serif;
   font-weight: bold;
   color: #5B7531;
   font-size: 1.6rem;
