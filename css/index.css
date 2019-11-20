@@ -140,24 +140,19 @@ html {
 /* Nav Style */
 .navtop {
   background: #FFE6CD;
-  padding: 20px 40px;
-  color: #8F573B;
-  font-size: 18px;
+  padding: 3%;
   display: flex;
-  justify-content: space-between;
 }
-.logo {
-  font: Bold 30px Garamond;
-  letter-spacing: 4.5px;
+.navtop .logo {
+  width: 33%;
 }
-.links {
+.navtop .links {
   display: flex;
-  justify-content: flex-end;
-  margin-right: 20px;
-  font: Bold 16px Helvetica;
+  font: Bold 1.3rem Helvetica;
+  padding-left: 33%;
 }
-.links a {
-  margin-right: 40px;
+.navtop .links a {
+  margin-right: 25px;
   align-self: center;
   letter-spacing: 2px;
   color: #8F573B;
