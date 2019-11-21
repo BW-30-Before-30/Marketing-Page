@@ -1,6 +1,6 @@
 /* Nav Style */
 .navtop {
-	background: #FFE6CD;
+	background: @main-color1;
 	padding: 3%;
 	display: flex;
 	
@@ -22,7 +22,7 @@
 		}
 
 		@media @phone {
-			border-bottom: 18px dotted #8F573B;
+			border-bottom: 18px dotted @main-color2;
 		}
 	}//end of logo
 	.links{
@@ -34,7 +34,7 @@
 			margin-right: 25px;
 			align-self: center;
 			letter-spacing: 2px;
-			color: #8F573B;
+			color: @main-color2;
 			text-decoration: none;
 
 		
@@ -49,7 +49,7 @@
 		@media @phone {
 			flex-direction: column;
             a {
-                border-bottom:2px solid #8F573B;
+                border-bottom:2px solid @main-color2;
                 margin: 0 auto;
                 padding: 3%;
             }//end a
@@ -69,7 +69,7 @@ a:hover {
 // This is the bottom NAV
 
 .navBottom {
-	background: #FFE6CD;
+	background: @main-color1;
 	display: flex;
 	font-family: Helvetica;
 	//justify-content: space-between;
@@ -91,7 +91,7 @@ a:hover {
 			font-size: 1.1rem;
 			font-weight: bold;
 			text-decoration: none;
-			color: #8F573B;
+			color: @main-color2;
 		}
 
 	.logoBottom {
