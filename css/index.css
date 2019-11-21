@@ -165,13 +165,27 @@ html {
   padding: 3%;
   display: flex;
 }
+@media (max-width: 800px) {
+  .navtop {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .navtop .logo {
   width: 33%;
+}
+@media (max-width: 800px) {
+  .navtop .logo {
+    width: 40%;
+    justify-content: center;
+    margin: 0 0 15px 0;
+  }
 }
 .navtop .links {
   display: flex;
   font: Bold 1.3rem Helvetica;
-  padding-left: 32%;
+  justify-content: flex-end;
+  width: 70%;
 }
 .navtop .links a {
   margin-right: 25px;
@@ -179,6 +193,13 @@ html {
   letter-spacing: 2px;
   color: #8F573B;
   text-decoration: none;
+}
+@media (max-width: 800px) {
+  .navtop .links {
+    width: 98%;
+    margin: 0;
+    justify-content: space-between;
+  }
 }
 /*
 a:hover {
@@ -326,7 +347,7 @@ header img {
 }
 header .aboutUs {
   background-color: #5B7531;
-  padding: 5% 3% 5%;
+  padding: 3%;
   width: 700px;
   height: 225px;
   position: relative;
@@ -427,4 +448,32 @@ header .aboutUs p {
   color: #5B7531;
   font-size: 1.6rem;
   letter-spacing: 2px;
+}
+@media (max-width: 800px) {
+  header .topImage {
+    width: 80%;
+  }
+  .aboutUs {
+    display: none;
+  }
+}
+@media (max-width: 500px) {
+  header .topImage {
+    display: none;
+  }
+  .bigDeal {
+    background-color: #8F573B;
+  }
+  .bigDeal h2 {
+    color: #FFE8CD;
+  }
+  .bigDeal p {
+    color: #FFE8CD;
+  }
+  .amazingTeam {
+    position: static;
+  }
+  .teamPics .teamMatePic {
+    width: 50%;
+  }
 }
