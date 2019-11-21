@@ -15,32 +15,31 @@
         margin-right:-10%;
         margin-top:8%;
         z-index: 2;
-        color:#8F573B;
         h1 {
-            font-family: Permanent Marker;
+            .fonts-class(3rem, @main-color2, Permanent Marker);
             font-size: 3rem;
             letter-spacing: 4px;        
         }// end of h1
         p {
+            .fonts-class(1.8rem, @main-color2, Helvetica);
             text-align: left;
-            font-size: 1.8rem;
             width: 73%;
             margin: 5% 10%;
+            letter-spacing: 2px;
         }
     }// end of header box
 }//end of Marketing header
 .middleC {
 background: @main-color3;
-color: @main-color1;
 text-align: center;
 padding:3%;
     h2 {
-        font: Bold 3rem Garamond;
+        .fonts-class(3rem, @main-color1, Garamond);
+        font-weight: Bold;
         letter-spacing: 4.5px;
     }//end of middlec h2
     p {
-        font-size: 1.3rem;
-        font-family: Helvetica;
+        .fonts-class(1.3rem, @main-color1, Helvetica);
         letter-spacing: 1px;
         margin: 2%;
 
@@ -48,13 +47,11 @@ padding:3%;
     .clickB {
         background: #FFFFFF;
         border: solid 1px @main-color1;
-        font-family: Helvetica;
+        .fonts-class(1.5rem, @main-color2, Helvetica);
         font-weight: bolder;
         letter-spacing: 2.5px;
-        color: @main-color2;
         margin-right:2%;
         width: 20%;
-        font-size: 1.5rem;
         padding: 0.5%;
     }//end of clicks B
 }// end of middle content
@@ -81,10 +78,8 @@ padding:3%;
 
         h2 {
             background: @main-color3;
-            color: @main-color1;
+            .fonts-class(1.5rem, @main-color1, Helvetica);
             letter-spacing: 1.5px;
-            font-size: 1.5rem;
-            font-family: Helvetica;
             font-weight: bolder;
             width: 20%;
             text-align: center;
@@ -98,27 +93,25 @@ padding:3%;
 .lastSection {
     background: #FFFFFF;
     text-align: center;
-    color: @main-color2;
     padding: 3%;
     h2 {
-        font: Bold 2.5rem Garamond;
+        .fonts-class(2.5rem, @main-color2, Garamond);
+        font-weight: Bold;
         letter-spacing: 1.5px;
     }
     p {
-        font-size: 1.3rem;
-        font-family: Helvetica;
+        .fonts-class(1.3rem, @main-color2, Helvetica);
         letter-spacing: 1px;
         margin: 2% 13% ;
     }
     .start {
+        .fonts-class(1.5rem, @main-color2, Helvetica);
+
         background: @main-color1;
-        font-family: Helvetica;
         font-weight: bolder;
         letter-spacing: 2.5px;
-        color: @main-color2;
         margin-right:2%;
         width: 25%;
-        font-size: 1.5rem;
         padding: 3%;
         position: relative;
         top: 75px;
