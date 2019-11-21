@@ -20,6 +20,10 @@
 			margin: 0 0 15px 0;
 		
 		}
+
+		@media @phone {
+			border-bottom: 18px dotted #8F573B;
+		}
 	}//end of logo
 	.links{
 		display: flex;
@@ -41,15 +45,20 @@
 			margin: 0;
 			justify-content: space-between;
 		}
-	}//end of div for links 
 
-	
+		@media @phone {
+			flex-direction: column;
+            a {
+                border-bottom:2px solid #8F573B;
+                margin: 0 auto;
+                padding: 3%;
+            }//end a
+		}
+		
+	}//end of div for links 
+      
 
 }
-
-
-
-
 
 
 /*
