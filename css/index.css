@@ -161,7 +161,7 @@ html {
 }
 /* Nav Style */
 .navtop {
-  background: #FFE6CD;
+  background: #FFE5CD;
   padding: 3%;
   display: flex;
 }
@@ -183,7 +183,7 @@ html {
 }
 @media (max-width: 500px) {
   .navtop .logo {
-    border-bottom: 18px dotted #8F573B;
+    border-bottom: 18px dotted #985F43;
   }
 }
 .navtop .links {
@@ -196,7 +196,7 @@ html {
   margin-right: 25px;
   align-self: center;
   letter-spacing: 2px;
-  color: #8F573B;
+  color: #985F43;
   text-decoration: none;
 }
 @media (max-width: 800px) {
@@ -211,7 +211,7 @@ html {
     flex-direction: column;
   }
   .navtop .links a {
-    border-bottom: 2px solid #8F573B;
+    border-bottom: 2px solid #985F43;
     margin: 0 auto;
     padding: 3%;
   }
@@ -221,7 +221,7 @@ a:hover {
  animation for the links	
 }*/
 .navBottom {
-  background: #FFE6CD;
+  background: #FFE5CD;
   display: flex;
   font-family: Helvetica;
   align-items: center;
@@ -239,7 +239,7 @@ a:hover {
   font-size: 1.1rem;
   font-weight: bold;
   text-decoration: none;
-  color: #8F573B;
+  color: #985F43;
 }
 .navBottom .logoBottom {
   width: 33%;
@@ -288,7 +288,7 @@ a:hover {
 }
 .middleC {
   background: #5B7331;
-  color: #FFE6CD;
+  color: #FFE5CD;
   text-align: center;
   padding: 3%;
 }
@@ -304,7 +304,7 @@ a:hover {
 }
 .middleC .clickB {
   background: #FFFFFF;
-  border: solid 1px #FFE6CD;
+  border: solid 1px #FFE5CD;
   font-family: Helvetica;
   font-weight: bolder;
   letter-spacing: 2.5px;
@@ -336,8 +336,8 @@ a:hover {
   justify-content: space-around;
 }
 .middlerow .textrow h2 {
-  background: #5B7431;
-  color: #FFE6CD;
+  background: #5B7331;
+  color: #FFE5CD;
   letter-spacing: 1.5px;
   font-size: 1.5rem;
   font-family: Helvetica;
@@ -352,7 +352,7 @@ a:hover {
 .lastSection {
   background: #FFFFFF;
   text-align: center;
-  color: #8F573B;
+  color: #985F43;
   padding: 3%;
 }
 .lastSection h2 {
@@ -366,7 +366,7 @@ a:hover {
   margin: 2% 13% ;
 }
 .lastSection .start {
-  background: #FFE6CD;
+  background: #FFE5CD;
   font-family: Helvetica;
   font-weight: bolder;
   letter-spacing: 2.5px;
@@ -379,7 +379,7 @@ a:hover {
   top: 75px;
 }
 .empty {
-  background: #5B7431;
+  background: #5B7331;
   width: 100%;
   height: 15vh;
   z-index: 1;
@@ -475,7 +475,7 @@ header img {
   width: 125%;
 }
 header .aboutUs {
-  background-color: #5B7531;
+  background-color: #5B7331;
   padding: 3%;
   width: 700px;
   height: 225px;
@@ -485,14 +485,14 @@ header .aboutUs {
 }
 header .aboutUs h2 {
   font-family: Permanent Marker;
-  color: #FFE8CD;
+  color: #FFE5CD;
   font-size: 3rem;
   text-align: right;
   padding: 0 0 20px;
 }
 header .aboutUs p {
   font-family: helvetica;
-  color: #FFE8CD;
+  color: #FFE5CD;
   font-size: 1.2rem;
   text-align: left;
   line-height: 16px;
@@ -502,14 +502,14 @@ header .aboutUs p {
   display: flex;
   align-items: center;
   flex-direction: column;
-  background-color: #FFE6CD;
+  background-color: #FFE5CD;
   padding: 6%;
 }
 .bigDeal H2 {
   font-family: 'EB Garamond', serif;
   font-size: 2rem;
   font-weight: bold;
-  color: #975F43;
+  color: #985F43;
   letter-spacing: 3px;
 }
 .bigDeal p {
@@ -517,7 +517,7 @@ header .aboutUs p {
   padding: 20px 2% 0;
   text-align: center;
   font-size: 1.5rem;
-  color: #975F43;
+  color: #985F43;
 }
 .middle {
   display: flex;
@@ -529,7 +529,7 @@ header .aboutUs p {
   height: 55px;
   display: flex;
   justify-content: center;
-  background-color: #5B7531;
+  background-color: #5B7331;
   align-items: center;
   position: relative;
   top: -30px;
@@ -537,7 +537,7 @@ header .aboutUs p {
 .amazingTeam h2 {
   font-family: Helvetica;
   font-weight: bold;
-  color: #FFE6CD;
+  color: #FFE5CD;
   font-size: 1.6rem;
   letter-spacing: 3px;
 }
@@ -574,7 +574,7 @@ header .aboutUs p {
 .bottomPic .getOut h2 {
   font-family: 'EB Garamond', serif;
   font-weight: bold;
-  color: #5B7531;
+  color: #5B7331;
   font-size: 1.6rem;
   letter-spacing: 2px;
 }
@@ -591,13 +591,13 @@ header .aboutUs p {
     display: none;
   }
   .bigDeal {
-    background-color: #8F573B;
+    background-color: #985F43;
   }
   .bigDeal h2 {
-    color: #FFE8CD;
+    color: #FFE5CD;
   }
   .bigDeal p {
-    color: #FFE8CD;
+    color: #FFE5CD;
   }
   .amazingTeam {
     position: static;
