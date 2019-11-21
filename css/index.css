@@ -255,11 +255,6 @@ a:hover {
   background: #FFE5CD;
   height: 34%;
   width: 45%;
-  /*position: absolute;
-        z-index: 999;
-        top: 25%;
-        right: 47%;
-        padding: 1%;*/
   margin-right: -10%;
   margin-top: 8%;
   z-index: 2;
@@ -303,6 +298,133 @@ a:hover {
   width: 20%;
   font-size: 1.5rem;
   padding: 0.5%;
+}
+.middlerow {
+  display: flex-column;
+}
+.middlerow .imgcontainer {
+  display: flex;
+  height: 50vh;
+  z-index: 1;
+}
+.middlerow .imgcontainer .viewlistimg {
+  max-width: 33.4%;
+}
+.middlerow .imgcontainer .aboutimg {
+  max-width: 33.4%;
+}
+.middlerow .imgcontainer .showoff {
+  max-width: 33.3%;
+}
+.middlerow .textrow {
+  display: flex;
+  justify-content: space-around;
+}
+.middlerow .textrow h2 {
+  background: #5B7431;
+  color: #FFE6CD;
+  letter-spacing: 1.5px;
+  font-size: 1.5rem;
+  font-family: Helvetica;
+  font-weight: bolder;
+  width: 20%;
+  text-align: center;
+  padding: 2%;
+  z-index: 2;
+  margin-top: -23%;
+  height: 100%;
+}
+.lastSection {
+  background: #FFFFFF;
+  text-align: center;
+  color: #8F573B;
+  padding: 3%;
+}
+.lastSection h2 {
+  font: Bold 2.5rem Garamond;
+  letter-spacing: 1.5px;
+}
+.lastSection p {
+  font-size: 1.3rem;
+  font-family: Helvetica;
+  letter-spacing: 1px;
+  margin: 2% 13% ;
+}
+.lastSection .start {
+  background: #FFE6CD;
+  font-family: Helvetica;
+  font-weight: bolder;
+  letter-spacing: 2.5px;
+  color: #985F43;
+  margin-right: 2%;
+  width: 25%;
+  font-size: 1.5rem;
+  padding: 3%;
+  position: relative;
+  top: 75px;
+}
+.empty {
+  background: #5B7431;
+  width: 100%;
+  height: 15vh;
+  z-index: 1;
+}
+@media (max-width: 500px) {
+  .pageContainer {
+    display: flex-column;
+    justify-content: center;
+    max-width: 65%;
+  }
+  .navtop .logo {
+    border-bottom: 18px dotted #8F573B;
+  }
+  .navtop .links {
+    flex-direction: column;
+  }
+  .navtop .links a {
+    border-bottom: 2px solid #8F573B;
+    margin: 0 auto;
+    padding: 3%;
+  }
+  .marketingheader {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .marketingheader .boxH {
+    width: 100%;
+    margin: 0;
+  }
+  .marketingheader .headerimg {
+    width: 100%;
+  }
+  .middleC .clickB {
+    width: 40%;
+  }
+  .middlerow {
+    display: flex;
+    flex-direction: column;
+  }
+  .middlerow .imgcontainer {
+    height: fit-content;
+    justify-content: space-between;
+    margin: 3%;
+  }
+  .middlerow .imgcontainer .showoff {
+    display: none;
+  }
+  .middlerow .textrow {
+    justify-content: space-between;
+    margin: 0 10%;
+  }
+  .middlerow .textrow h2 {
+    font-size: 1rem;
+  }
+  .middlerow .textrow #gone {
+    display: none;
+  }
+  .lastSection .start {
+    width: 100%;
+  }
 }
 header {
   display: flex;
