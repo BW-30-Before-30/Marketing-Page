@@ -26,15 +26,16 @@
 		}
 	}//end of logo
 	.links{
+		
 		display: flex;
-		font: Bold 1.3rem Helvetica;
 		justify-content: flex-end;
 		width: 70%;
 		a {
+			.fonts-class(1.3rem, @main-color2, Helvetica);
+			font-weight: Bold;
 			margin-right: 25px;
 			align-self: center;
 			letter-spacing: 2px;
-			color: @main-color2;
 			text-decoration: none;
 
 		
@@ -71,8 +72,6 @@ a:hover {
 .navBottom {
 	background: @main-color1;
 	display: flex;
-	font-family: Helvetica;
-	//justify-content: space-between;
 	align-items: center;
 	
 	padding: 3%; 
@@ -88,7 +87,7 @@ a:hover {
 	}
 
 		a {
-			font-size: 1.1rem;
+			.fonts-class(1.1rem, @main-color2, Helvetica);
 			font-weight: bold;
 			text-decoration: none;
 			color: @main-color2;
