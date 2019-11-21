@@ -97,7 +97,6 @@ padding:3%;
 }//end of middle row container section
 .lastSection {
     background: #FFFFFF;
-    border:2px solid orange;
     text-align: center;
     color: #8F573B;
     padding: 3%;
@@ -131,3 +130,70 @@ padding:3%;
     height: 15vh;
     z-index: 1;
 }
+//media quaries start here
+@media @phone {
+    .pageContainer {
+        display: flex-column;
+        justify-content: center;
+        max-width: 65%;
+    }
+    .navtop {
+        .logo {
+            border-bottom: 18px dotted #8F573B;
+        }
+        .links {
+            //display: flex;
+            flex-direction: column;
+            a {
+                border-bottom:2px solid #8F573B;
+                margin: 0 auto;
+                padding: 3%;
+            }//end a
+        }//end links
+    }//end nav top
+    .marketingheader {
+        flex-direction: column-reverse;
+        text-align: center;        
+        .boxH {
+            width: 100%;
+            margin: 0;
+        }
+        .headerimg {
+            width: 100%;
+        }//ends header img
+    }//ends header
+    .middleC {
+        .clickB {
+            width: 40%;
+        }//end of buttons
+    }//end of middlec
+    .middlerow {
+        display: flex;
+        flex-direction: column;
+        .imgcontainer {
+            height: fit-content;
+            justify-content: space-between;
+            margin: 3%;
+            .showoff {
+                display: none;
+            }//ends showoff
+        }//ends img container
+        .textrow {
+            justify-content: space-between;
+            margin: 0 10%;
+            h2 {
+                font-size: 1rem;
+            }
+            #gone {
+                display: none;
+            }//ends gone
+        }//ends textrow
+    }//ends middle row
+    .lastSection {
+        .start {
+            width: 100%;
+        }
+    }//ends last section
+}//end of mobile media queries
+
+//@media @tablet

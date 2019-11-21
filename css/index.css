@@ -336,7 +336,6 @@ a:hover {
 }
 .lastSection {
   background: #FFFFFF;
-  border: 2px solid orange;
   text-align: center;
   color: #8F573B;
   padding: 3%;
@@ -369,6 +368,63 @@ a:hover {
   width: 100%;
   height: 15vh;
   z-index: 1;
+}
+@media (max-width: 500px) {
+  .pageContainer {
+    display: flex-column;
+    justify-content: center;
+    max-width: 65%;
+  }
+  .navtop .logo {
+    border-bottom: 18px dotted #8F573B;
+  }
+  .navtop .links {
+    flex-direction: column;
+  }
+  .navtop .links a {
+    border-bottom: 2px solid #8F573B;
+    margin: 0 auto;
+    padding: 3%;
+  }
+  .marketingheader {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .marketingheader .boxH {
+    width: 100%;
+    margin: 0;
+  }
+  .marketingheader .headerimg {
+    width: 100%;
+  }
+  .middleC .clickB {
+    width: 40%;
+  }
+  .middlerow {
+    display: flex;
+    flex-direction: column;
+  }
+  .middlerow .imgcontainer {
+    height: fit-content;
+    justify-content: space-between;
+    margin: 3%;
+  }
+  .middlerow .imgcontainer .showoff {
+    display: none;
+  }
+  .middlerow .textrow {
+    justify-content: space-between;
+    margin: 0 10%;
+  }
+  .middlerow .textrow h2 {
+    font-size: 1rem;
+  }
+  .middlerow .textrow #gone {
+    display: none;
+  }
+  .lastSection .start {
+    width: 100%;
+  }
 }
 header {
   display: flex;
