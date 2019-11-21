@@ -201,6 +201,11 @@ html {
   letter-spacing: 2px;
   text-decoration: none;
 }
+.navtop .links a:hover {
+  font-size: 2.3rem;
+  color: #5B7331;
+  font-family: Helvetica;
+}
 @media (max-width: 800px) {
   .navtop .links {
     width: 98%;
@@ -321,6 +326,11 @@ a:hover {
   width: 20%;
   padding: 0.5%;
 }
+.middleC .clickB:hover {
+  font-size: 2.3rem;
+  color: #5B7331;
+  font-family: Helvetica;
+}
 .middlerow {
   display: flex-column;
 }
@@ -369,11 +379,14 @@ a:hover {
   letter-spacing: 1.5px;
 }
 .lastSection p {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   color: #985F43;
   font-family: Helvetica;
   letter-spacing: 1px;
   margin: 2% 13% ;
+}
+.lastSection p br {
+  margin: 2%;
 }
 .lastSection .start {
   font-size: 1.5rem;
