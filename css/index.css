@@ -188,15 +188,17 @@ html {
 }
 .navtop .links {
   display: flex;
-  font: Bold 1.3rem Helvetica;
   justify-content: flex-end;
   width: 70%;
 }
 .navtop .links a {
+  font-size: 1.3rem;
+  color: #985F43;
+  font-family: Helvetica;
+  font-weight: Bold;
   margin-right: 25px;
   align-self: center;
   letter-spacing: 2px;
-  color: #985F43;
   text-decoration: none;
 }
 @media (max-width: 800px) {
@@ -223,7 +225,6 @@ a:hover {
 .navBottom {
   background: #FFE5CD;
   display: flex;
-  font-family: Helvetica;
   align-items: center;
   padding: 3%;
 }
@@ -237,6 +238,7 @@ a:hover {
 }
 .navBottom a {
   font-size: 1.1rem;
+  font-family: Helvetica;
   font-weight: bold;
   text-decoration: none;
   color: #985F43;
@@ -284,7 +286,6 @@ a:hover {
   font-size: 1.8rem;
   color: #985F43;
   font-family: Helvetica;
-  text-align: left;
   width: 73%;
   margin: 5% 10%;
   letter-spacing: 2px;
@@ -395,8 +396,9 @@ a:hover {
 }
 @media (max-width: 500px) {
   .pageContainer {
-    display: flex-column;
+    display: flex;
     justify-content: center;
+    flex-direction: column;
   }
   .marketingheader {
     flex-direction: column-reverse;
@@ -405,6 +407,7 @@ a:hover {
   .marketingheader .boxH {
     width: 100%;
     margin: 0;
+    text-align: center;
   }
   .marketingheader .headerimg {
     width: 100%;
@@ -493,16 +496,16 @@ header .aboutUs {
   right: 5%;
 }
 header .aboutUs h2 {
-  font-family: Permanent Marker;
-  color: #FFE5CD;
   font-size: 3rem;
+  color: #FFE5CD;
+  font-family: Permanent Marker;
   text-align: right;
   padding: 0 0 20px;
 }
 header .aboutUs p {
-  font-family: helvetica;
-  color: #FFE5CD;
   font-size: 1.2rem;
+  color: #FFE5CD;
+  font-family: helvetica;
   text-align: left;
   line-height: 16px;
   padding: 0 0 20px;
@@ -515,18 +518,18 @@ header .aboutUs p {
   padding: 6%;
 }
 .bigDeal H2 {
-  font-family: 'EB Garamond', serif;
   font-size: 2rem;
-  font-weight: bold;
   color: #985F43;
+  font-family: 'EB Garamond';
+  font-weight: bold;
   letter-spacing: 3px;
 }
 .bigDeal p {
+  font-size: 1.5rem;
+  color: #985F43;
   font-family: helvetica;
   padding: 20px 2% 0;
   text-align: center;
-  font-size: 1.5rem;
-  color: #985F43;
 }
 .middle {
   display: flex;
@@ -544,10 +547,10 @@ header .aboutUs p {
   top: -30px;
 }
 .amazingTeam h2 {
-  font-family: Helvetica;
-  font-weight: bold;
-  color: #FFE5CD;
   font-size: 1.6rem;
+  color: #FFE5CD;
+  font-family: helvetica;
+  font-weight: bold;
   letter-spacing: 3px;
 }
 .teamPics {
@@ -581,10 +584,10 @@ header .aboutUs p {
   align-items: center;
 }
 .bottomPic .getOut h2 {
-  font-family: 'EB Garamond', serif;
-  font-weight: bold;
-  color: #5B7331;
   font-size: 1.6rem;
+  color: #5B7331;
+  font-family: 'EB Garamond';
+  font-weight: bold;
   letter-spacing: 2px;
 }
 @media (max-width: 800px) {
