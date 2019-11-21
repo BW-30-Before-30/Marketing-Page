@@ -79,7 +79,6 @@ header {
     height: 55px;
     display: flex;
     justify-content: center;
-    ///margin: 0 6.5%;
     background-color: #5B7531;
     align-items: center;
     position: relative;
@@ -141,4 +140,54 @@ header {
     }  
               
 }
+
+// Media Queries
+
+@media @tablet {
+    
+    header .topImage {
+        width: 80%;
+    }
+    
+    .aboutUs {
+        display: none;
+    }
+    
+
+}
+
+@media @phone {
+
+    header .topImage {
+        display: none;
+    }
+
+    .bigDeal {
+        background-color: #8F573B ;
+
+        
+    }
+
+    .bigDeal h2{
+        color: #FFE8CD;
+    }
+
+    .bigDeal p {
+        color: #FFE8CD;
+    }
+
+
+    .amazingTeam {
+        
+        position: static;
+        
+    }
+
+    .teamPics .teamMatePic {
+        width: 50%;
+    }
+
+        
+}
+    
 
