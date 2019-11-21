@@ -276,16 +276,20 @@ header {
   display: flex;
 }
 header .topImage {
-  width: 700px;
+  width: 900px;
   display: flex;
 }
 header img {
-  width: 100%;
+  width: 125%;
 }
 header .aboutUs {
   background-color: #5B7531;
   padding: 5% 3% 5%;
-  width: 550px;
+  width: 700px;
+  height: 225px;
+  position: relative;
+  top: 100px;
+  right: 5%;
 }
 header .aboutUs h2 {
   font-family: helvetica;
@@ -334,6 +338,8 @@ header .aboutUs p {
   justify-content: center;
   background-color: #5B7531;
   align-items: center;
+  position: relative;
+  top: -30px;
 }
 .amazingTeam h2 {
   font-family: Helvetica;
@@ -346,7 +352,7 @@ header .aboutUs p {
   display: flex;
   flex-wrap: wrap;
   background-color: white;
-  margin: 7%;
+  margin: 4% 7%;
 }
 .teamPics .teamMatePic {
   width: 25%;
