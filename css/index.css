@@ -426,6 +426,44 @@ a:hover {
     width: 100%;
   }
 }
+@media (max-width: 800px) {
+  .pageContainer {
+    max-width: 90%;
+  }
+  .marketingheader {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .marketingheader .boxH {
+    width: 100%;
+    margin: 0;
+  }
+  .marketingheader .headerimg {
+    width: 100%;
+  }
+  .middlerow {
+    display: flex;
+    flex-direction: column;
+  }
+  .middlerow .imgcontainer {
+    height: fit-content;
+    justify-content: space-between;
+    margin: 3%;
+  }
+  .middlerow .imgcontainer .showoff {
+    display: none;
+  }
+  .middlerow .textrow {
+    justify-content: space-between;
+    margin: 0 10%;
+  }
+  .middlerow .textrow h2 {
+    font-size: 1rem;
+  }
+  .middlerow .textrow #gone {
+    display: none;
+  }
+}
 header {
   display: flex;
 }

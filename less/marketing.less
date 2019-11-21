@@ -194,6 +194,44 @@ padding:3%;
             width: 100%;
         }
     }//ends last section
-}//end of mobile media queries
+}//end of mobile media queries for mobile
 
-//@media @tablet
+@media @tablet {
+    .pageContainer {
+        max-width: 90%;
+    }// end of page container
+    //nav is perfect
+    .marketingheader {
+        flex-direction: column-reverse;
+        text-align: center;        
+        .boxH {
+            width: 100%;
+            margin: 0;
+        }
+        .headerimg {
+            width: 100%;
+        }//ends header img
+    }//ends header
+    .middlerow {
+        display: flex;
+        flex-direction: column;
+        .imgcontainer {
+            height: fit-content;
+            justify-content: space-between;
+            margin: 3%;
+            .showoff {
+                display: none;
+            }//ends showoff
+        }//ends img container
+        .textrow {
+            justify-content: space-between;
+            margin: 0 10%;
+            h2 {
+                font-size: 1rem;
+            }
+            #gone {
+                display: none;
+            }//ends gone
+        }//ends textrow
+    }//ends middle row
+}
