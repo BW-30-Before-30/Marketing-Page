@@ -286,7 +286,6 @@ a:hover {
   font-size: 1.8rem;
   color: #985F43;
   font-family: Helvetica;
-  text-align: left;
   width: 73%;
   margin: 5% 10%;
   letter-spacing: 2px;
@@ -397,8 +396,9 @@ a:hover {
 }
 @media (max-width: 500px) {
   .pageContainer {
-    display: flex-column;
+    display: flex;
     justify-content: center;
+    flex-direction: column;
   }
   .marketingheader {
     flex-direction: column-reverse;
@@ -407,6 +407,7 @@ a:hover {
   .marketingheader .boxH {
     width: 100%;
     margin: 0;
+    text-align: center;
   }
   .marketingheader .headerimg {
     width: 100%;

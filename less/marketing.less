@@ -1,8 +1,6 @@
 //marketing page middle content 
 .marketingheader {
-    display: flex;
-    justify-content: flex-end;
-    //height: 80vh;
+    .flex(flex-end);
     .headerimg {
         width: 55%;
         background: transparent;
@@ -22,7 +20,6 @@
         }// end of h1
         p {
             .fonts-class(1.8rem, @main-color2, Helvetica);
-            text-align: left;
             width: 73%;
             margin: 5% 10%;
             letter-spacing: 2px;
@@ -72,9 +69,7 @@ padding:3%;
         }//end of last img
     }// end og img container
     .textrow {
-        display: flex;
-        //justify-content: center;
-        justify-content: space-around;
+        .flex(space-around);
 
         h2 {
             background: @main-color3;
@@ -126,9 +121,9 @@ padding:3%;
 //media quaries start here
 @media @phone {
     .pageContainer {
-        display: flex-column;
-        justify-content: center;
-        
+        .flex(center);
+        flex-direction: column;
+            
     }
     
     .marketingheader {
@@ -137,6 +132,7 @@ padding:3%;
         .boxH {
             width: 100%;
             margin: 0;
+            text-align: center;
         }
         .headerimg {
             width: 100%;
