@@ -576,7 +576,30 @@ header .aboutUs p {
   width: 25%;
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
   padding: 3% 0;
+}
+.teamPics .teamMatePic p {
+  font-size: 1.6rem;
+  color: #985F43;
+  font-family: helvetica;
+  font-weight: bolder;
+  margin: 10px 0 0 0;
+}
+@media (max-width: 800px) {
+  .teamPics .teamMatePic p {
+    font-size: 1.3rem;
+    color: #985F43;
+    font-family: helvetica;
+  }
+}
+@media (max-width: 500px) {
+  .teamPics .teamMatePic p {
+    font-size: 1.5rem;
+    color: #985F43;
+    font-family: helvetica;
+  }
 }
 .teamPics img {
   width: 70%;
@@ -610,6 +633,10 @@ header .aboutUs p {
   .aboutUs {
     display: none;
   }
+  .amazingTeam {
+    position: static;
+    width: 100%;
+  }
 }
 @media (max-width: 500px) {
   header .topImage {
@@ -623,9 +650,6 @@ header .aboutUs p {
   }
   .bigDeal p {
     color: #FFE5CD;
-  }
-  .amazingTeam {
-    position: static;
   }
   .teamPics .teamMatePic {
     width: 50%;

@@ -90,8 +90,24 @@ header {
     .teamMatePic {
         width: 25%;
         .flex(center);
+        flex-direction: column;
+        align-items: center;
         padding: 3% 0;
-     }
+
+        p {
+            .fonts-class(1.6rem, @main-color2, helvetica);
+            font-weight: bolder;
+            margin: 10px 0 0 0;
+
+            @media @tablet {
+                .fonts-class(1.3rem, @main-color2, helvetica);
+            }
+
+            @media @phone {
+                .fonts-class(1.5rem, @main-color2, helvetica);
+            }
+        }
+    }
 
     img {
         width: 70%;
@@ -100,7 +116,6 @@ header {
 
     
 }
-
 
 // Bottom Picture
 
@@ -136,6 +151,13 @@ header {
     .aboutUs {
         display: none;
     }
+
+    .amazingTeam {
+        
+        position: static;
+        width: 100%;
+        
+    }
     
 
 }
@@ -160,12 +182,6 @@ header {
         color: @main-color1;
     }
 
-
-    .amazingTeam {
-        
-        position: static;
-        
-    }
 
     .teamPics .teamMatePic {
         width: 50%;
