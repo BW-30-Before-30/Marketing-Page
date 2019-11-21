@@ -302,7 +302,8 @@ header .aboutUs p {
   font-family: helvetica;
   color: #FFE8CD;
   font-size: 1.2rem;
-  text-align: right;
+  text-align: left;
+  line-height: 16px;
   padding: 0 0 20px;
 }
 .bigDeal {
