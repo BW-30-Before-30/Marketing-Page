@@ -3,22 +3,48 @@
 	background: #FFE6CD;
 	padding: 3%;
 	display: flex;
-.logo {
-	width: 33%;
-}//end of logo
-.links{
-	display: flex;
-	font: Bold 1.3rem Helvetica;
-	justify-content: flex-end;
-	width: 70%;
-	a {
-		margin-right: 25px;
-		align-self: center;
-		letter-spacing: 2px;
-		color: #8F573B;
-		text-decoration: none;
-	}//end of text a tag
-}//end of div for links 
+	
+
+	@media @tablet {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.logo {
+		width: 33%;
+
+		@media @tablet {
+		
+			width: 40%;
+			justify-content: center;
+			margin: 0 0 15px 0;
+		
+		}
+	}//end of logo
+	.links{
+		display: flex;
+		font: Bold 1.3rem Helvetica;
+		justify-content: flex-end;
+		width: 70%;
+		a {
+			margin-right: 25px;
+			align-self: center;
+			letter-spacing: 2px;
+			color: #8F573B;
+			text-decoration: none;
+
+		
+		}//end of text a tag
+		
+		@media @tablet {
+			width: 98%;
+			margin: 0;
+			justify-content: space-between;
+		}
+	}//end of div for links 
+
+	
+
 }
 
 
@@ -78,7 +104,11 @@ a:hover {
 		margin: 0 10% 0 0;
 		line-height: 22px;
 	}
+
 }
+
+
+
 
 
 
